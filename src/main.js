@@ -38,8 +38,8 @@ form.addEventListener('submit', async (event) => {
       message: 'Something went wrong. Please try again later.',
       position: 'topRight',
     });
-  } finally {
-      hideLoader();
-      form.reset();
+   } finally {
+    hideLoader();
+    form.reset();
   }
 });
